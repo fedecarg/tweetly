@@ -7,7 +7,7 @@ import {
 } from 'graphql'
 
 import UserType from './UserType'
-import { findTweetsByUserId } from '../services/twitter';
+import { findTweetsByUserId, findTweetsByScreenName } from '../services/twitter';
 
 var QueryType = new GraphQLObjectType({
   name: 'Query',
