@@ -1,0 +1,40 @@
+{
+  "name": "twitter-api",
+  "version": "0.1.0",
+  "description": "Twitter API client library for Node.js",
+  "homepage": "https://github.com/fedecarg/tweetly/twitter-api",
+  "author": "Federico Cargnelutti <fedecarg@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedecarg/tweetly"
+  },
+  "private": true,
+  "scripts": {
+    "start": "npm run prod",
+    "dev": "npm run watch ./src/bin/www",
+    "prod": "npm run build && NODE_ENV=production node ./dist/bin/www",
+    "build": "npm run clean && babel ./src --out-dir dist",
+    "clean": "rimraf dist",
+    "watch": "nodemon --config ./nodemon.json --",
+    "lint": "./node_modules/.bin/eslint --fix --ext .js ./src"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "debug": "^4.1.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "rimraf": "^2.6.3",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-async-to-generator": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^1.18.10"
+  }
+}

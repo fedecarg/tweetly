@@ -1,0 +1,36 @@
+.tweet {
+  display: inline-block;
+  background: #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 2% 2% 0;
+  padding: 1rem;
+  min-height: 270px;
+  vertical-align: top;
+  width: 48%;
+}
+
+.tweet__image {
+  border-radius: 50%;
+  float: left;
+  height: 48px;
+  width: 48px;
+}
+
+.tweet__body {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 1rem;
+}
+
+.tweet__username {
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+@media screen and (max-width: 600px) {
+  .tweet {
+    width: 100%;
+    margin-bottom: 1.8rem;
+    min-height: 0;
+  }
+}
