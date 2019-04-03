@@ -1,4 +1,4 @@
-# Node/GraphQL Backend API
+# GraphQL Backend API
 
 ## Application Routes
 
