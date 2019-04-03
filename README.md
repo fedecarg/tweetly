@@ -5,7 +5,7 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
 ## User Stories
 
 **Display a list of Tweets from a default user**
-```
+```/Users/fed/GitHub/tweetly/README.md
   As a user
   When I visit the "timeline" page on "desktop"
   I want to see a list of tweets posted by "cnnbrk"
@@ -78,3 +78,10 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
 **twitter-api**
 
 ![Backend API](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot03.png)
+
+## CI Workflow
+
+Deployed to production using Docker, GitHub and Heroku. Foe example:
+* https://tweetly-api.herokuapp.com/statuses/user_timeline?screen_name=fedecarg&count=1
+
+![Heroku](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot04.png)
