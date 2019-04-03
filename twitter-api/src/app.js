@@ -5,6 +5,7 @@ import TwitterClient from 'twit';
 import timelineRouter from './routes/timeline';
 import config from './config/app.js';
 
+const app = express();
 const environment = process.env.NODE_ENV || 'development';
 
 const twitter = new TwitterClient({
@@ -14,11 +15,8 @@ const twitter = new TwitterClient({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET
 });
 
-const app = express();
-
 app.set('twitter', twitter);
 app.set('config', config[environment]);
-app.disable('etag');
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
