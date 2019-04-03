@@ -28,12 +28,12 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
 ## URLs
 
 * **twitter-api**
-  - `/statuses/user_timeline?screen_name=cnnbrk&count=10` Show 10 lates tweets posted by cnnbrk
-  - `/statuses/user_timeline?screen_name=undefined` Show error message when user doesn't exist
+  - `/statuses/user_timeline?screen_name=cnnbrk&count=10` Returns a collection of tweets posted by cnnbrk
+  - `/statuses/user_timeline?screen_name=undefined` Returns an error message
 
 * **twitter-webapp**
-  - `/tweets` Show the latest tweets from cnnbrk
-  - `/tweets/fedecarg` Show the latest tweets from a given user
+  - `/tweets` Displays latest tweets from @cnnbrk
+  - `/tweets/fedecarg` Displays latest tweets from from a given user, in this case @fedecarg
 
 ## Development
 
