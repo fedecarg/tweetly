@@ -4,14 +4,14 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
 
 ## User Stories
 
-Display a list of Tweets from a default user
+**Display a list of Tweets from a default user**
 ```
   As a user
   When I visit the "timeline" page on "desktop"
   I want to see a list of tweets posted by "cnnbrk"
   So that I can read the most recent Tweets on his timeline
 ```
-Display a list of Tweets from a given user
+**Display a list of Tweets from a given user**
 ```
   As a user
   When I visit the "timeline" page on "mobile"
@@ -24,6 +24,7 @@ Display a list of Tweets from a given user
 * **twitter-api**: Twitter API client library written for Node.js using es6 and Express.js.
 * **twitter-webapp**: Responsive React/Redux single-page web application that talks to the `twitter-api` backend API.
 * **twitter-graphql**: (WIP) API proxy that wraps the `twitter-api` backend API with GraphQL.
+
 ## URLs
 
 * **twitter-api**
@@ -37,15 +38,15 @@ Display a list of Tweets from a given user
 ## Development
 
 * **twitter-api**
-  1. Install the dependencies using `npm install`
-  2. Add secret keys and tokens to `nodemon.json`
-  3. Run `npm run dev`
-  4. Navigate to [http://localhost:3000](http://localhost:3000)
+  - Install the dependencies using `npm install`
+  - Add secret keys and tokens to `nodemon.json`
+  - Run `npm run dev`
+  - Navigate to [http://localhost:3000](http://localhost:3000)
 
 * **twitter-webapp**
-  1. Install the dependencies using `npm install`
-  3. Run `npm run start`
-  4. Navigate to [http://localhost:3001](http://localhost:3001)
+  - Install the dependencies using `npm install`
+  - Run `npm run start`
+  - Navigate to [http://localhost:3001](http://localhost:3001)
 
 ## Error messages
 
