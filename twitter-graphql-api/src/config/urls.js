@@ -4,5 +4,5 @@ const config = {
   }
 };
 
-const urls = config[process.env.NODE_ENV];
+const urls = config.development;
 export default urls;

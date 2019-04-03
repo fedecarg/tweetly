@@ -2,7 +2,7 @@
   "name": "twitter-graphql",
   "version": "0.1.0",
   "description": "API proxy that wraps the twitter-api backend API with GraphQL",
-  "homepage": "https://github.com/fedecarg/tweetly/twitter-graphql",
+  "homepage": "https://github.com/fedecarg/tweetly/twitter-graphql-api",
   "author": "Federico Cargnelutti <fedecarg@gmail.com>",
   "repository": {
     "type": "git",
@@ -20,16 +20,15 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "compression": "^1.7.4",
-    "cookie-parser": "^1.4.4",
-    "cors": "^2.8.5",
-    "debug": "^4.1.1",
-    "express": "^4.16.4",
-    "express-graphql": "^0.7.1",
-    "graphql": "^14.2.1",
-    "morgan": "^1.9.1",
-    "rimraf": "^2.6.3",
-    "twit": "^2.2.11"
+    "body-parser": "1.17.1",
+    "compression": "1.6.2",
+    "cors": "2.8.1",
+    "express": "4.15.2",
+    "graphql": "0.9.1",
+    "graphql-server-express": "0.6.0",
+    "graphql-tools": "0.10.1",
+    "morgan": "1.8.1",
+    "rimraf": "2.6.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
