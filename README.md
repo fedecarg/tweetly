@@ -71,17 +71,21 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
 
 **twitter-webapp**
 
-![Desktop](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot01.png)
+![Desktop](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot01.jpg)
 
-![Mobile](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot02.png)
+![Mobile](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot02.jpg)
 
 **twitter-api**
 
-![Backend API](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot03.png)
+![Twitter API](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot03.jpg)
+
+**twitter-graphql-api**
+
+![GraphQL API](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot04.jpg)
 
 ## CI Workflow
 
 Deployments are managed using Heroku, Docker and GitHub:
 * https://tweetly-api.herokuapp.com/statuses/user_timeline?screen_name=fedecarg&count=1
 
-![Heroku](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot04.png)
+![Heroku](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot05.jpg)
