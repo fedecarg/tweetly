@@ -81,7 +81,7 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
 
 ## CI Workflow
 
-Deployed to production using Docker, GitHub and Heroku. Foe example:
-* https://tweetly-api.herokuapp.com/statuses/user_timeline?screen_name=fedecarg&count=1
+Deployed to production using Docker, GitHub and Heroku:
+https://tweetly-api.herokuapp.com/statuses/user_timeline?screen_name=fedecarg&count=1
 
 ![Heroku](https://raw.githubusercontent.com/fedecarg/tweetly/master/screenshot04.png)
