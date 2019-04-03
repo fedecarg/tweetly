@@ -48,7 +48,7 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
   - Run `npm run start`
   - Navigate to [http://localhost:3001](http://localhost:3001)
 
-## Error messages
+## Twitter's API error messages
 
 **twitter-api**
 
