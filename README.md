@@ -22,8 +22,8 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
 ## Overview
 
 * **twitter-api**: Twitter API client library written for Node.js using es6 and Express.js.
+* **twitter-graphql-api**: API proxy that wraps the `twitter-api` backend API with GraphQL.
 * **twitter-webapp**: Responsive React/Redux single-page web application that talks to the `twitter-api` backend API.
-* **twitter-graphql**: (WIP) API proxy that wraps the `twitter-api` backend API with GraphQL.
 
 ## URLs
 
@@ -31,11 +31,15 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
   - `/statuses/user_timeline?screen_name=cnnbrk&count=10` Returns a collection of tweets posted by cnnbrk
   - `/statuses/user_timeline?screen_name=undefined` Returns an error message
 
+* **twitter-graphql-api**
+  - `/graphql?query=` GraphQL queries
+  - `/graphiql?query=` In-browser IDE for exploring GraphQL (development)
+
 * **twitter-webapp**
   - `/tweets` Displays latest tweets from @cnnbrk
   - `/tweets/fedecarg` Displays latest tweets from from a given user, in this case @fedecarg
-
-## Development
+  
+## Setup
 
 * **twitter-api**
   - Install the dependencies using `npm install`
@@ -47,8 +51,13 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
   - Install the dependencies using `npm install`
   - Run `npm run start`
   - Navigate to [http://localhost:3001](http://localhost:3001)
+  
+* **twitter-graphql-api**
+  - Install the dependencies using `npm install`
+  - Run `npm run dev`
+  - Navigate to [http://localhost:3002](http://localhost:3002)
 
-## Twitter's API error messages
+## Error Messages
 
 **twitter-api**
 
