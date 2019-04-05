@@ -5,12 +5,13 @@ This repository demonstrates the use of Node, React, Redux, Express, GraphQL and
 ## User Stories
 
 **Display a list of Tweets from a default user**
-```/Users/fed/GitHub/tweetly/README.md
+```
   As a user
   When I visit the "timeline" page on "desktop"
   I want to see a list of tweets posted by "cnnbrk"
   So that I can read the most recent Tweets on his timeline
 ```
+
 **Display a list of Tweets from a given user**
 ```
   As a user
